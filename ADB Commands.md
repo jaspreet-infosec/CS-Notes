@@ -1,4 +1,3 @@
-Here’s a summary of all the ADB commands discussed in this chat, in one go:
 
 ### Device Connection and IP Setup:
 ```bash
