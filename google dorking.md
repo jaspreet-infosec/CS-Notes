@@ -1,28 +1,6 @@
 # Google Dorking — Complete Student Notes
 
-> **Audience:** students / beginners in cybersecurity (OSINT & defensive recon)
-
-> **Tone:** simple, direct, practical
-
-> **Usage:** copy into Obsidian as a single note or split later using backlinks
-
-
-## Table of Contents
-
-- [[Overview]](#overview)
-
-- [[Operators]](#core-search-operators)
-
-- [[Practical Lab]](#practical-lab)
-
-- [[Remediation]](#remediation)
-
-- [[Disclosure Template]](#responsible-disclosure-template)
-
-
 ---
-
-
 # Google Dorking — Overview
 
 ## What is Google Dorking?
@@ -49,12 +27,6 @@ It’s commonly used in:
 
 ---
 
-👉 Next: [[02_Operators|Core Google Search Operators]]
-
-
----
-
-
 # Google Dorking — Core Search Operators
 
 ## Core Operators
@@ -79,12 +51,6 @@ site:example.com intitle:"index of" backup
 ```
 
 ---
-
-👉 Next: [[03_Practical_Lab|Hands-On Lab Exercises]]
-
-
----
-
 
 # Google Dorking — Practical Lab
 
@@ -119,12 +85,6 @@ site:lab.example.local "confidential" filetype:docx
 
 ---
 
-👉 Next: [[04_Remediation|Fixing Exposures]]
-
-
----
-
-
 # Google Dorking — Remediation
 
 ## Common Fixes
@@ -147,12 +107,6 @@ site:lab.example.local "confidential" filetype:docx
 - Set up monitoring for leaks.
 
 ---
-
-👉 Next: [[05_Disclosure_Template|Responsible Disclosure]]
-
-
----
-
 
 # Google Dorking — Responsible Disclosure Template
 
@@ -186,11 +140,4 @@ Regards,
 3. True/False: `robots.txt` is a security measure.  
 4. What should you do first before dorking a target domain?  
 5. Name two ways to fix exposed backups.
-
----
-
-👉 Back to start: [[01_Overview|Google Dorking Overview]]
-
-
----
 
